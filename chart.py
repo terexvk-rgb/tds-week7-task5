@@ -39,5 +39,5 @@ plt.xlabel("Support Channel")
 plt.ylabel("Response Time (minutes)")
 
 # 6. Save as PNG with 512x512 resolution
-plt.savefig("chart.png", dpi=64, bbox_inches="tight")
+plt.savefig("chart.png", dpi=64)
 plt.close()
